@@ -1,0 +1,82 @@
+package com.boulevard.fitness.boleta;
+
+import java.util.HashSet;
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.springframework.stereotype.Service;
+
+import com.boulevard.fitness.detalleboleta.IDetalleBoletaRepository;
+import com.boulevard.fitness.entidades.Boleta;
+import com.boulevard.fitness.entidades.DetalleBoleta;
+import com.boulevard.fitness.entidades.Producto;
+import com.boulevard.fitness.repository.ProductoReporsitory;
+
+import jakarta.transaction.Transactional;
+import lombok.AllArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
+@Service
+@AllArgsConstructor
+public class BoletaServiceImpl implements BoletaService{
+	
+	private IBoletaRepository repoBoleta;
+    private IDetalleBoletaRepository repoDetalleBoleta;
+    private ProductoReporsitory repoProducto;
+	
+	
+	@Override
+	public List<Boleta> listarBoleta() {
+		return repoBoleta.findAll();
+	}
+
+	@Override
+	public Boleta obtenerBoleta(int id_boleta) {
+		return repoBoleta.findById(id_boleta).orElse(null);
+	}
+
+	@Override
+	@Transactional(rollbackOn = Exception.class)
+	public Boleta agregarBoleta(BoletaTransaccionDto boleta) throws Exception {
+		Boleta boletaEntity = repoBoleta.save(boleta.getBoleta());
+		for (DetalleBoleta detalle: boleta.getDetalleBoleta()){
+			Producto producto = repoProducto.findById(detalle.getProducto().getCod_producto()).orElse(null);
+			 if (producto.getStock_producto() < 0){
+				 throw new Exception();
+			 }
+			 detalle.setBoleta(boletaEntity);
+			 repoDetalleBoleta.save(detalle);
+			 repoProducto.save(producto);
+	}
+		return boletaEntity;
+}
+	
+	
+
+	@Override
+	public Boleta actualizarBoleta(Boleta boleta) {
+		Boleta boletaFinded = repoBoleta.findById(boleta.getId()).orElse(null);
+	        if (boletaFinded != null){
+	        	boletaFinded.setCosto_total(boleta.getCosto_total());
+	        	boletaFinded.setCod_cli(boleta.getCod_cli());
+	        	boletaFinded.setDescripcion_boleta(boleta.getDescripcion_boleta());
+
+	        	repoBoleta.save(boletaFinded);
+	        }
+	        return boletaFinded;
+	}
+
+	@Override
+	public void eliminarBoleta(int id_boleta) {
+		repoBoleta.deleteById(id_boleta);
+	}
+
+	@Override
+	public  obtenerUltimaBoleta() {
+		return repoBoleta.findFirstByOrderById().orElse(null);
+	}
+
+	
+}

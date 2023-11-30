@@ -1,0 +1,20 @@
+package com.boulevard.fitnes.validaciones;
+
+import java.sql.Date;
+
+import jakarta.persistence.Id;
+import lombok.Setter;
+@Setter
+public class ClienteRequest {
+	@Id
+	private String cod_cli;
+	
+	private String nom_cli;
+	private String ape_cli;
+  private String numdoc_cli;
+	private String telf_cli;
+	private String correo_cli;
+	private Date fecha_inicio;
+	private Date fecha_fin;
+	
+}

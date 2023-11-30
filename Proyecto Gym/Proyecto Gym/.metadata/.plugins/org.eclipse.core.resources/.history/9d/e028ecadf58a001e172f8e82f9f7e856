@@ -1,0 +1,12 @@
+package com.boulevard.fitness.repository;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+
+import com.boulevard.fitness.entidades.Cliente;
+
+
+
+public interface ClienteReporsitory extends JpaRepository<Cliente, String> {
+	 Cliente findByNumdocCli(String numdoc);
+	
+}

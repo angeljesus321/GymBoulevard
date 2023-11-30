@@ -1,0 +1,29 @@
+package com.boulevard.fitness.boleta;
+
+import java.util.List;
+
+import com.boulevard.fitness.entidades.Boleta;
+import com.boulevard.fitness.entidades.DetalleBoleta;
+
+public class BoletaTransaccionDto {
+
+	public Boleta boleta;
+    public List<DetalleBoleta> detalleBoleta;
+
+    
+    public Boleta getBoleta() {
+        return boleta;
+    }
+    
+    public void setBoleta(Boleta boleta) {
+        this.boleta = boleta;
+    }
+    
+    public List<DetalleBoleta> getDetalleBoleta() {
+        return detalleBoleta;
+    }
+    
+    public void setDetalleBoleta(List<DetalleBoleta> detalleBoleta) {
+        this.detalleBoleta = detalleBoleta;
+    }
+}

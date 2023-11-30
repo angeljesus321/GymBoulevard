@@ -1,0 +1,7 @@
+package com.boulevard.fitness.boletadetallecontroller;
+
+public class BoletaDetalleController {
+
+	
+	private BoletaService ventaService;
+}

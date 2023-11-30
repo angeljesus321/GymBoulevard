@@ -1,0 +1,23 @@
+package com.boulevard.fitness.entidades;
+
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Entity
+@Table(name = "producto")
+@AllArgsConstructor
+@NoArgsConstructor
+public class Producto {
+	@Id
+	private String cod_producto;
+	private String des_producto;
+	private String marca_producto;
+	private double pre_producto;
+	private int stock_producto;
+}

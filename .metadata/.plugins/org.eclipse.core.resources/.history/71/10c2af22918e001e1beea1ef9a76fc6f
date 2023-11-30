@@ -1,0 +1,5 @@
+package com.boulevard.fitness.boleta;
+
+public interface BoletaService {
+
+}

@@ -1,0 +1,52 @@
+package com.boulevard.fitness.entidades;
+
+import java.sql.Date;
+
+
+import jakarta.persistence.Entity;
+
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@Entity
+public class Cliente {
+	 @Id
+	
+	 String cod_cli;
+	
+	 String nom_cli;
+	 String ape_cli;
+     String numdoc_cli;
+	 String telf_cli;
+	 String correo_cli;
+	 Date fecha_inicio;
+	 Date fecha_fin;
+	
+
+	
+	@ManyToOne
+    @JoinColumn(name = "tipo_clase")
+	public Clase tipo_clase;
+
+    @ManyToOne
+    @JoinColumn(name = "tipo_membresia")
+    public Membresia tipo_membresia;
+
+    @ManyToOne
+    @JoinColumn(name = "tipo_documento")
+    public Documento tipo_documento;
+	
+	
+	
+
+}

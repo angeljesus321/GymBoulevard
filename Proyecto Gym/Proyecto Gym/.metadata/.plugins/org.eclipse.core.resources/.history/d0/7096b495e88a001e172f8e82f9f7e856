@@ -1,0 +1,66 @@
+package com.boulevard.fitness.entidades;
+
+import java.sql.Date;
+
+import org.hibernate.annotations.GenericGenerator;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Table(name = "cliente")
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+public class Cliente {
+	@Id
+	private String cod_cli;
+	
+	private String nom_cli;
+	private String ape_cli;
+	private String numDoc_cli;
+	private String telf_cli;
+	private String correo_cli;
+	private Date fecha_inicio;
+	private Date fecha_fin;
+	
+	@ManyToOne
+	@JoinColumn(name = "tipo_clase")
+	Clase ObjTipoClase;
+
+	@ManyToOne
+	@JoinColumn(name = "tipo_membresia")
+	Clase ObjTipoMembresia;
+
+	@ManyToOne
+	@JoinColumn(name = "tipo_documento")
+	Clase ObjDocumento;
+
+	
+
+	@ManyToOne
+	@JoinColumn(name = "tipo_clase")
+	@Column(insertable = false, updatable = false)
+	Clase tipo_clase;
+
+	@ManyToOne
+	@JoinColumn(name = "tipo_membresia")
+	@Column(insertable = false, updatable = false)
+	Membresia tipo_membresia;
+
+	@ManyToOne
+	@JoinColumn(name = "tipo_documento")
+	@Column(insertable = false, updatable = false)
+	Documento tipo_documento;
+
+
+}

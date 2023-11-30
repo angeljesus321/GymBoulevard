@@ -1,0 +1,16 @@
+package com.boulevard.fitness.boleta;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.boulevard.fitness.entidades.Boleta;
+
+import lombok.AllArgsConstructor;
+
+@Service
+@AllArgsConstructor
+public class BoletaServiceImpl implements BoletaService{@Override
+	
+
+}

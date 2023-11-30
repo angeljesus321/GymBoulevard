@@ -1,0 +1,18 @@
+package com.boulevard.fitness.boleta;
+
+import java.util.List;
+
+import com.boulevard.fitness.entidades.Boleta;
+
+public interface BoletaService {
+
+	List<Boleta> listarBoleta();
+	
+	Boleta obtenerVenta(int id_boleta);
+	Boleta agregarVenta(BoletaTransaccionDto boleta) throws Exception;
+	Boleta actualizarVenta(Boleta boleta);
+    void eliminarVenta(int id_boleta);
+
+    VenBoletata obtenerUltimaVenta();
+
+}

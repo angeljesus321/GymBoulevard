@@ -1,0 +1,352 @@
+2023-11-19 16:33:36,878 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-19 16:35:41,031 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: boulevard.fitness:BOULEVARD_FITNNES:0.0.1-SNAPSHOT @ D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\pom.xml.
+2023-11-19 16:35:42,853 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BOULEVARD_FITNNES/src/main/java
+2023-11-19 16:35:42,853 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BOULEVARD_FITNNES/src/main/resources
+2023-11-19 16:35:42,859 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BOULEVARD_FITNNES/src/main/resources
+2023-11-19 16:35:42,866 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BOULEVARD_FITNNES/src/test/java
+2023-11-19 16:35:43,865 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2023-11-19 16:35:43,868 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-11-19 16:35:44,017 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: boulevard.fitness:BOULEVARD_FITNNES:0.0.1-SNAPSHOT @ D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\pom.xml.
+2023-11-19 16:35:44,330 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BOULEVARD_FITNNES/src/main/java
+2023-11-19 16:35:44,330 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BOULEVARD_FITNNES/src/main/resources
+2023-11-19 16:35:44,331 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BOULEVARD_FITNNES/src/main/resources
+2023-11-19 16:35:44,331 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BOULEVARD_FITNNES/src/test/java
+2023-11-19 16:35:44,803 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-11-19 16:35:44,839 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-11-19 16:35:45,003 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: boulevard.fitness:BOULEVARD_FITNNES:0.0.1-SNAPSHOT @ D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\pom.xml.
+2023-11-19 16:35:45,351 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BOULEVARD_FITNNES/src/main/java
+2023-11-19 16:35:45,351 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BOULEVARD_FITNNES/src/main/resources
+2023-11-19 16:35:45,352 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BOULEVARD_FITNNES/src/main/resources
+2023-11-19 16:35:45,352 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BOULEVARD_FITNNES/src/test/java
+2023-11-19 16:35:45,600 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-11-19 16:35:46,312 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 16:35:46,327 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 16:35:46,331 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 16:39:25,926 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 16:39:25,927 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 16:39:25,930 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 16:50:01,969 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 16:50:01,969 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 16:50:01,972 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 17:30:33,487 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 17:30:33,488 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 17:30:33,490 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 17:52:38,131 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 17:52:38,131 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 17:52:38,135 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 17:56:37,825 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 17:56:37,825 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 17:56:37,828 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 17:57:10,653 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 17:57:10,653 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 17:57:10,657 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 17:57:50,114 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 17:57:50,115 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 17:57:50,118 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 17:58:29,872 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 17:58:29,872 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 17:58:29,876 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:04:55,055 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:04:55,055 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:04:55,057 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:07:29,295 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:07:29,295 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:07:29,301 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:07:47,044 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:07:47,044 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:07:47,047 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:08:14,743 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:08:14,743 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:08:14,745 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:08:30,646 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:08:30,647 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:08:30,649 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:08:50,654 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:08:50,654 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:08:50,657 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:09:07,623 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:09:07,624 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:09:07,626 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:10:09,348 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:10:09,348 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:10:09,351 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:13:26,328 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:13:26,328 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:13:26,332 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:15:49,885 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:15:49,885 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:15:49,889 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:16:22,197 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:16:22,198 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:16:22,201 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:17:06,155 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:17:06,156 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:17:06,158 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:18:21,487 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:18:21,488 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:18:21,491 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:19:01,831 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:19:01,832 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:19:01,835 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:28:06,846 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:28:06,846 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:28:06,849 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:29:12,315 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:29:12,315 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:29:12,318 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:29:17,595 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:29:17,595 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:29:17,598 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:29:41,716 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:29:41,716 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:29:41,719 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:30:00,879 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:30:00,879 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:30:00,882 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:30:23,622 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:30:23,622 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:30:23,625 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:30:34,498 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:30:34,498 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:30:34,501 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:30:49,185 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:30:49,185 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:30:49,189 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:31:58,410 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:31:58,410 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:31:58,413 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:33:39,858 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:33:39,859 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:33:39,861 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:35:36,081 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:35:36,082 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:35:36,084 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:35:45,774 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:35:45,774 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:35:45,777 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:36:44,309 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:36:44,310 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:36:44,313 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:37:46,219 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:37:46,219 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:37:46,221 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:38:54,909 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:38:54,910 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:38:54,913 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:39:31,158 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:39:31,158 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:39:31,160 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:39:57,842 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:39:57,842 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:39:57,845 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:48:16,513 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:48:16,513 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:48:16,515 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:50:30,616 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:50:30,616 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:50:30,618 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:50:55,959 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:50:55,959 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:50:55,962 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 18:51:18,476 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 18:51:18,476 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 18:51:18,478 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 19:15:26,067 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 19:15:26,067 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 19:15:26,070 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 19:15:51,082 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 19:15:51,082 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 19:15:51,086 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 19:16:06,886 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 19:16:06,886 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 19:16:06,888 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 19:18:25,717 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 19:18:25,718 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 19:18:25,720 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 19:18:43,499 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 19:18:43,499 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 19:18:43,502 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 19:24:00,174 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 19:24:00,175 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 19:24:00,178 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 19:24:35,822 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 19:24:35,822 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 19:24:35,826 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 19:24:51,130 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 19:24:51,130 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 19:24:51,132 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 20:02:42,671 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 20:02:42,671 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 20:02:42,674 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-19 20:03:00,980 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-19 20:03:00,980 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-19 20:03:00,984 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:05:22,696 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-20 13:13:09,715 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:13:09,783 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:13:09,801 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:14:07,386 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:14:07,399 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:14:07,403 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:14:47,917 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:14:47,920 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:14:47,923 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:15:15,112 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:15:15,120 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:15:15,123 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:15:56,562 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:15:56,565 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:15:56,567 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:16:33,719 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:16:33,721 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:16:33,723 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:17:06,017 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:17:06,020 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:17:06,022 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:17:36,495 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:17:36,497 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:17:36,500 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:19:00,446 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:19:00,449 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:19:00,451 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:19:30,171 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:19:30,172 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:19:30,174 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:20:00,196 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:20:00,204 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:20:00,207 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:20:20,363 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:20:20,365 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:20:20,368 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:21:02,513 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:21:02,516 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:21:02,518 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:21:23,861 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:21:23,863 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:21:23,866 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:29:00,910 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 13:29:00,911 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:29:00,914 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:30:05,546 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 13:30:05,547 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:30:05,550 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:43:29,824 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 13:43:29,824 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:43:29,827 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:57:23,590 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:57:23,592 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:57:23,594 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 13:59:18,064 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:59:18,066 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 13:59:18,068 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:05:00,984 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:05:00,984 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:05:00,986 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:05:40,838 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:05:40,839 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:05:40,842 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:10:19,131 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:10:19,131 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:10:19,135 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:13:51,008 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:13:51,008 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:13:51,010 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:14:45,354 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:14:45,354 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:14:45,356 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:15:41,406 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:15:41,406 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:15:41,408 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:17:16,925 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:17:16,925 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:17:16,928 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:17:29,686 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:17:29,686 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:17:29,689 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:18:18,627 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:18:18,627 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:18:18,630 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:18:47,470 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:18:47,471 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:18:47,473 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:20:57,332 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:20:57,332 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:20:57,335 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:21:25,271 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:21:25,271 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:21:25,273 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:22:23,848 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:22:23,849 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:22:23,851 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:22:27,866 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:22:27,866 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:22:27,868 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:22:39,063 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:22:39,063 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:22:39,066 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:22:43,625 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:22:43,626 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:22:43,628 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:25:00,997 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:25:00,998 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:25:01,000 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:25:35,503 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:25:35,503 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:25:35,506 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:25:41,530 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:25:41,531 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:25:41,533 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:27:24,941 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:27:24,941 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:27:24,944 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:27:33,428 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:27:33,428 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:27:33,430 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:27:48,491 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:27:48,492 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:27:48,497 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:27:57,671 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:27:57,671 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:27:57,674 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:28:08,925 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:28:08,925 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:28:08,927 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:28:33,388 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:28:33,388 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:28:33,390 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:28:42,851 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:28:42,852 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:28:42,854 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:29:14,833 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:29:14,834 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:29:14,836 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:29:52,743 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:29:52,743 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:29:52,745 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:30:12,246 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:30:12,247 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:30:12,249 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:30:51,477 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:30:51,478 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:30:51,480 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:31:04,090 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:31:04,090 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:31:04,092 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:31:16,619 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:31:16,619 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:31:16,621 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:32:00,348 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:32:00,348 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:32:00,350 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:32:08,123 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:32:08,123 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:32:08,126 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:41:30,556 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:41:30,556 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:41:30,559 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:45:18,863 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:45:18,863 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:45:18,865 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources
+2023-11-20 14:49:01,903 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-11-20 14:49:01,903 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-11-20 14:49:01,906 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Ciclo VI\Desarrollo de Servicios Web II\Proyecto Gym\BOULEVARD_FITNNES\src\test\resources

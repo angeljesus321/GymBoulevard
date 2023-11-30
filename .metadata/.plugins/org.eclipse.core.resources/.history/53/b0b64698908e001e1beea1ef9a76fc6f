@@ -1,0 +1,9 @@
+package com.boulevard.fitness.boleta;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.boulevard.fitness.entidades.Boleta;
+
+public interface IBoletaRepository extends JpaRepository<Boleta, Integer>{
+
+}

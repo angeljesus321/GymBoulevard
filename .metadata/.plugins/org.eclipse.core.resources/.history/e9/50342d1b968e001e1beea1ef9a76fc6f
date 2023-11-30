@@ -1,0 +1,7 @@
+package com.boulevard.fitness.detalleboleta;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface IDetalleBoletaRepository extends JpaRepository<DetalleBoleta, Integer>{
+
+}

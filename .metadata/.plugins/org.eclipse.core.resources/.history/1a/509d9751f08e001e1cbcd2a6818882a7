@@ -1,0 +1,40 @@
+package com.boulevard.fitness.entidades;
+
+import java.util.Set;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Entity
+@Table(name = "boleta")
+@AllArgsConstructor
+@NoArgsConstructor
+public class Boleta {
+	@Id
+	@Column(name = "id_boleta")
+	private int id;
+	private int costo_total;
+	@Column(name = "cod_cli")
+	private String cod_cli;
+	private String descripcion_boleta;
+	
+	
+	@OneToMany(mappedBy = "boleta")
+    @JsonIgnore
+    private Set<DetalleBoleta> detalles;
+	
+	@ManyToOne
+    @JoinColumn(name = "cod_cli", insertable = false, updatable = false)
+    private Cliente cliente;
+}

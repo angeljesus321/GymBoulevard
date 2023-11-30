@@ -1,0 +1,50 @@
+package com.boulevard.fitness.boleta;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.boulevard.fitness.entidades.Boleta;
+
+import lombok.AllArgsConstructor;
+
+@Service
+@AllArgsConstructor
+public class BoletaServiceImpl implements BoletaService{@Override
+	public List<Boleta> listarBoleta() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Boleta obtenerBoleta(int id_boleta) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Boleta agregarBoleta(BoletaTransaccionDto boleta) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Boleta actualizarBoleta(Boleta boleta) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void eliminarBoleta(int id_boleta) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Boleta obtenerUltimaBoleta() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

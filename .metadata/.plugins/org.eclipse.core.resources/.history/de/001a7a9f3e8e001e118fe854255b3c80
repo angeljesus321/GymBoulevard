@@ -1,0 +1,29 @@
+package com.boulevard.fitness.entidades;
+
+import java.util.Set;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Entity
+@Table(name = "detalle_boleta")
+@AllArgsConstructor
+@NoArgsConstructor
+public class DetalleBoleta {
+
+	private int id_detalle;
+	private int id_boleta;
+	private String descripcion;
+	private String cod_producto;
+	
+	 	@OneToMany(mappedBy = "id_boleta")
+	    @JsonIgnore
+	    public Set<Boleta> boletas; // Cambiado a plural para reflejar la relación bidireccional
+}

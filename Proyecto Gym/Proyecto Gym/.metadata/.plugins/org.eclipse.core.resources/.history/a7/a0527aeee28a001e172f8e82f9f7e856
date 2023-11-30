@@ -1,0 +1,6 @@
+package com.boulevard.fitness.repository;
+
+
+public class ClienteReporsitory extends JpaRepository<Persona, Long> {
+
+}

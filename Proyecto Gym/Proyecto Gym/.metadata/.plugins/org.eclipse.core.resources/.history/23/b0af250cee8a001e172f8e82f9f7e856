@@ -1,0 +1,40 @@
+package com.boulevard.fitnes.validaciones;
+
+import java.sql.Date;
+
+import jakarta.persistence.Id;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.PastOrPresent;
+import jakarta.validation.constraints.Size;
+import lombok.Setter;
+
+@Setter
+public class ClienteRequest {
+	@Id
+	public String cod_cli;
+
+    @NotBlank(message = "El nombre no puede estar en blanco")
+    public String nom_cli;
+
+    @NotBlank(message = "El apellido no puede estar en blanco")
+    public String ape_cli;
+
+    @NotBlank(message = "El número de documento no puede estar en blanco")
+    @Size(min = 8, max = 12, message = "La longitud del número de documento debe estar entre 8 y 12 caracteres")
+    public String numdoc_cli;
+
+    @NotBlank(message = "El teléfono no puede estar en blanco")
+    public String telf_cli;
+
+    @NotBlank(message = "El correo no puede estar en blanco")
+    public String correo_cli;
+
+    @NotNull(message = "La fecha de inicio no puede estar en blanco")
+    @PastOrPresent(message = "La fecha de inicio debe ser pasado(menor o igual a la fecha actual)")
+    public Date fecha_inicio;
+
+    @NotNull(message = "La fecha de fin no puede estar en blanco")
+    public Date fecha_fin;
+	
+}

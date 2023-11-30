@@ -1,0 +1,5 @@
+package com.boulevard.fitnes.validaciones;
+
+public class ProductoRequest {
+
+}

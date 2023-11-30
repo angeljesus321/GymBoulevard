@@ -1,0 +1,106 @@
+package com.boulevard.fitness.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.boulevard.fitnes.validaciones.ProductoRequest;
+import com.boulevard.fitness.entidades.Producto;
+import com.boulevard.fitness.repository.ProductoReporsitory;
+
+
+import java.util.Optional;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import jakarta.validation.Valid;
+import lombok.AllArgsConstructor;
+
+import java.util.List;
+
+
+@RestController
+@AllArgsConstructor
+@RequestMapping("/productos")
+public class ProductoController {
+
+	//http://localhost:8080/productos/listar
+	
+	@Autowired
+	ProductoReporsitory productoReporsitory;
+	
+
+	
+	 @GetMapping("")
+	    public List<Producto> listarClientes() {
+	        return productoReporsitory.findAll();
+	    }
+
+	// REGISTRAR
+	 @PostMapping("/registrar")
+	 @ResponseStatus(code = HttpStatus.CREATED)
+	 public ResponseEntity<Producto> register(@RequestBody @Valid ProductoRequest productoRequest) {
+		 Producto producto = new Producto();
+		 producto.cod_producto = productoRequest.cod_producto;
+	     producto.des_producto = productoRequest.des_producto;
+	     producto.marca_producto = productoRequest.marca_producto;
+	     producto.pre_producto = productoRequest.pre_producto;
+	     producto.stock_producto = productoRequest.stock_producto;
+	     
+	     Producto productoRegistrado = productoReporsitory.save(producto);
+	     return new ResponseEntity<>(productoRegistrado, HttpStatus.CREATED);
+	 }
+	 
+	// OBTENER POR ID
+		@GetMapping("/buscar/{id}")
+		public ResponseEntity<Producto> obtenerProductoPorId(@PathVariable String id) {
+			Optional<Producto> optionalProducto = productoReporsitory.findById(id);
+
+			return optionalProducto.map(producto -> ResponseEntity.ok(producto))
+					.orElseGet(() -> ResponseEntity.notFound().build());
+		}
+	 
+	 //Actualizar
+	    @PutMapping("/{id}")
+	    public ResponseEntity<Producto> actualizarProducto(@PathVariable String id,
+	            @RequestBody @Validated ProductoRequest productoRequest) {
+
+	        Optional<Producto> productoExistente = productoReporsitory.findById(id);
+
+	        if (productoExistente.isPresent()) {
+	            Producto producto = productoExistente.get();
+	            producto.setDes_producto(productoRequest.getDes_producto());
+	            producto.setMarca_producto(productoRequest.getMarca_producto());
+	            producto.setPre_producto(productoRequest.getPre_producto());
+	            producto.setStock_producto(productoRequest.getStock_producto());
+
+	            // Guardar los cambios en la base de datos
+	            Producto productoActualizado = productoReporsitory.save(producto);
+
+	            return new ResponseEntity<>(productoActualizado, HttpStatus.OK);
+	        } else {
+	            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+	        }
+	    }
+	    
+	    @PutMapping("/actualizar")
+        @ResponseBody
+        public Producto actualizarProducto(@RequestBody Producto producto) {
+            return productoReporsitory.save(producto);
+        }
+
+		// ELIMINAR
+		@DeleteMapping("/eliminar/{id}")
+		public void deleteById(@PathVariable String id) {
+			productoReporsitory.deleteById(id);
+		}
+	
+}

@@ -1,0 +1,60 @@
+package com.boulevard.fitness.boleta;
+
+import java.util.List;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.boulevard.fitness.entidades.Boleta;
+
+import io.swagger.v3.oas.annotations.parameters.RequestBody;
+import lombok.AllArgsConstructor;
+
+@RestController
+@RequestMapping("/boletas")
+@AllArgsConstructor
+public class BoletaController {
+
+	private BoletaService boletaService;
+	
+	@GetMapping("/listar")
+    public List<Boleta> listarBoleta(){
+        return boletaService.listarBoleta();
+    }
+	
+	@GetMapping("/{id_boleta}")
+    public Boleta obtenerBoleta(@PathVariable int id_boleta){
+        return boletaService.obtenerBoleta(id_boleta);
+    }
+	
+	@PostMapping("/insertar")
+    @ResponseBody
+    @ResponseStatus(code = HttpStatus.OK)
+    public Boleta agregarBoleta(@RequestBody BoletaTransaccionDto boleta) throws Exception{
+        return boletaService.agregarBoleta(boleta);
+    }
+	
+	@PutMapping("/actualizar")
+    @ResponseBody
+    public Boleta actualizarBoleta(@RequestBody Boleta boleta){
+        return boletaService.actualizarBoleta(boleta);
+    }
+	
+	@DeleteMapping("/eliminar/{id_boleta}")
+    public void eliminarBoleta(@PathVariable int id_boleta){
+		boletaService.eliminarBoleta(id_boleta);
+    }
+	
+	@GetMapping("/ultima")
+    public Boleta obtenerUltimaBoleta(){
+        return boletaService.obtenerUltimaBoleta();
+    }
+}
